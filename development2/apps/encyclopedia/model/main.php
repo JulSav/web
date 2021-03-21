@@ -14,7 +14,7 @@ class Main
 
     public function formsubmitAmbassador(array $data):?array
     {
-        $key = '1674302315:AAF9tVdeCmvJ7zbixKColzkXQiOQyysBLpQ';
+        $key = 0;
         if ($key == null) {
             throw new \Exception("RESOURCE_LOST");
         }
